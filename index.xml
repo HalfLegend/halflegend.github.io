@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Jichao Ouyang's Blog</title>
+  <atom:link href="http://blog.oyanglul.us/index.xml" rel="self" type="application/rss+xml" />
+  <link>http://blog.oyanglul.us</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Fri, 14 Jul 2017 07:27:36 +0000</pubDate>
+  <lastBuildDate>Fri, 14 Jul 2017 07:27:36 +0000</lastBuildDate>
+  <generator>Emacs 24.5 Org-mode 8.3.6</generator>
+  <webMaster>root@a1623f98ab8b (root)</webMaster>
+  <image>
+    <url>http://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Jichao Ouyang's Blog</title>
+    <link>http://blog.oyanglul.us</link>
+  </image>
+
+
+  <item>
+    <title>README</title>
+    <link>http://blog.oyanglul.us/README.html</link>
+    <author>root@a1623f98ab8b (root)</author>
+    <guid isPermaLink="false">http://blog.oyanglul.us/README.html</guid>
+    <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    <i>Jul 14, 2017</i>
+  </p>
+
+
+
+  <p>
+    <a href="http://blog.oyanglul.us/README.html">Read More...</a>
+  </p>
+  <hr  />
+    ]]></description>
+  </item>
+</channel>
+</rss>
