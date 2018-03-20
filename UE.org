@@ -1,0 +1,14 @@
+2018-01-17 增加18.00.0.19破解
+
+
+去官网下载原载，先运行一次，再在终端里执行下面代码就可以破解完成！
+printf '\x31\xC0\xFF\xC0\xC3\x90' | dd seek=$((0x777160)) conv=notrunc bs=1 of=/Applications/UltraEdit.app/Contents/MacOS/UltraEdit
+
+论坛里有很多锋友发消息问我怎么找skProtectionPlus::IsActivated函数地址，下面我把找函数地址的方法发一下：
+
+你下载个IDA pro，然后用打开idaq64,然后把Applications/UltraEdit.app/Contents/MacOS/UltraEdit拖到IDA里，
+在导出函数里找到skProtectionPlus::IsActivated
+
+[[./UE-1.png]]
+
+[[file:UE-2.png]]

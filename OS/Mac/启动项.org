@@ -1,0 +1,6 @@
+- /Library/LaunchAgent/*.plist
+- ~/Library/LaunchAgent/*.plist
+- /Library/StartupItems/*(executable) and *.plist
+- /System/Library/StartupItems/*(executable) and *.plist
+- /etc/rc.common
+- 界面: System Preferences -> Users & Groups -> Login Items

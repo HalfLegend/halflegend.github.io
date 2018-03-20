@@ -1,0 +1,13 @@
+
+** 用法：
+ #+BEGIN_SRC sh 
+   nohup ... >/dev/null &
+   nohup ./script.sh >out 2>&1 &
+   # 执行可以用exit退出，此时可能会提醒有jobs在执行，无视即可 (最好不要直接叉掉窗口)
+ #+END_SRC
+
+** 解释：
+ nohup命令的功能就和它的名字一样，no hup，忽略hup信号，不挂断进程，进程仍然属于当前会话（终端关闭后，进程会变成孤儿进程，PPID变成1） 
+ 例如：（不加& 命令不会在后台执行）
+ nohup会将ping命令的默认输出从屏幕重定向到当前目录的nohup.out文件，如果当前目录不可写，会重定向到 $HOME/nohup.out 。 
+

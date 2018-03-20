@@ -1,0 +1,9 @@
+** 现象
+ centos 系统的服务器打开终端很慢
+ 并显示'abrt-cli status' timed out
+
+** 解决
+ #+BEGIN_SRC sh
+  abrt-auto-reporting enabled
+ #+END_SRC
+
